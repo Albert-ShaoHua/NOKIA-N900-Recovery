@@ -1,27 +1,26 @@
 [简体中文](https://github.com/Albert-ShaoHua/NOKIA-N900-Recovery/blob/master/README.md)|English
 
-# N900刷机教程
+# N900 RecoveryTutorial
 
-#### 系统要求
-    Linux（centos测试成功，其他暂未测试）
+#### System
+    Linux（centos success）
 
-#### 安装刷机工具/下载固件
-    1、64位系统先安装32位兼容库（自行百度，不超过5条命令，很简单。）
-    2、下载地址
-        （1）链接：https://pan.baidu.com/s/18iG2z38xoIEkIgCOmErQZQ
-        （2）提取码：xmea
-    3、libusb是usb驱动全部安装，命令：dpkg -i 文件名（下载地址见2）
-    4、Maemo flasher安装，命令：dpkg -i 文件名（下载地址见2）
-    5、固件下载
-        （1）Emmc（下载地址见2）
-        （2）Firmware（下载地址见2）
+#### Install
+    1、First install 32-bit compatible library for 64 bit system
+    2、Download
+        （1）link：https://1drv.ms/u/s!AsXYd0VYSC9lgh9OGZYeeDccuSQg?e=6ToF5S
+    3、Libusb is the USB driver installation, command: dpkg - I file name
+    4、Maemo flash installation, command: dpkg - I file name
+    5、Firmware
+        （1）Emmc
+        （2）Firmware
 
-#### 刷机
+#### Recovery
 
-    1、手机关机，按住键盘上的u键，在用数据线连接电脑，右上角显示usb图标，进入刷机模式
-    2、首先刷入emmc文件
-        （1）命令：flasher-3.5 -F emmc.bin -f
-        （2）显示：image(s) flashed successfully in .... (刷入成功)
-    3、断开连接，取出电池，重新将电池放入再次进入刷机模式，刷入firmware文件
+    1、Turn off the mobile phone, press and hold the U key on the keyboard, connect the computer with the data cable, and the USB icon will be displayed in the upper right corner to enter recovery
+    2、First, brush in the EMMC file
+        （1）command：flasher-3.5 -F emmc.bin -f
+        （2）display：image(s) flashed successfully in .... (success)
+    3、Disconnect, take out the battery, put the battery in again, enter recovery again, and swipe in the firmware file
         （1）flasher-3.5 -F firmware.bin -f -R
-        （2）刷机成功自动重启
+        （2）Auto restart successfully
