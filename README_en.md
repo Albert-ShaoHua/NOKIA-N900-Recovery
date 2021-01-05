@@ -1,4 +1,4 @@
-简体中文|[English](https://github.com/Albert-ShaoHua/NOKIA-N900-Recovery/blob/master/README_en.md)
+[简体中文](https://github.com/Albert-ShaoHua/NOKIA-N900-Recovery/blob/master/README.md)|English
 
 # N900刷机教程
 
